@@ -3,7 +3,7 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins:docker
+    image: makejava/jenkins:docker
     restart: always
     volumes:
       - /etc/localtime:/etc/localtime:ro
